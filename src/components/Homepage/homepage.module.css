@@ -1,0 +1,32 @@
+.mainTitle {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.colorCards {
+  color: black;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -20px;
+  text-align: center;
+}
+
+.item {
+  margin: 20px;
+  width: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  transition: 0.25s;
+}
+
+.item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 2px 4px rgba(90, 89, 19, 0.548);
+}
